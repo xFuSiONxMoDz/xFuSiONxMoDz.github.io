@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="styleregister.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<h1>Register</h1>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  	<!-- <a class="navbar-brand" href="#">Menu</a> -->
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav">
+	      <li class="nav-item">
+	        <a class="nav-link" href="index.html">Home</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="wild.html">Life in the wild</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="login.html">Login</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="register.html">Register <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="sub.html">Subscribe</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="about.html">About Website</a>
+	      </li>
+	<!--       <li class="nav-item">
+	        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+	      </li> -->
+	    </ul>
+	  </div>
+	</nav><br><br><br>
+	<form method="GET">
+		First Name: <input type="text" name="firstname" required><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Username: <input type="text" name="username" min="8" required><br>
+		Email: <input type="email" name="email" required><br>
+		Password: <input type="password" name="password" min="5" required><br>
+		Birthday: <input type="date" name="birthday"><br>
+		Gender:<br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+		<input type="radio" name="gender" value="Other">Other<br>
+		Pets: <br>
+		<input type="checkbox" name="cat"> Cat<br>
+		<input type="checkbox" name="dog"> Dog<br>
+		Cars: <br>
+		<select name="Cars">
+			<option value="volvo" name="volvo">Volvo</option>
+			<option value="Audi" name="audi">Audi</option>
+		</select><br>
+		<input type="submit" value="Register!">
+		<input type="reset">
+		</form>
+</body>
+</html>
