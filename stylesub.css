@@ -4,17 +4,19 @@ body, html {
   height: 100%;
   background-image: url("header.jpg");
   background-size: cover; 
-  font-family: 'Montserrat', sans-serif;
 }
 
-/*body {
+body {
   font-family: 'Montserrat', sans-serif;
-}*/
+}
 
 hr {
   max-width: 65px;
   border-width: 3px;
   border-color: #F05F44; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .faded {
@@ -24,15 +26,24 @@ hr {
 header.startup {
   background-position: center;
   height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 header.startup hr {
   margin-top: 200px;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
 }
 
 header.startup h1 {
   font-size: 2rem; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 
@@ -49,17 +60,27 @@ header.startup h1 {
 
 .btn-xl {
   padding: 1rem 2rem; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .btn-primary {
   background-color: #F05F44;
-  border-color: #F05F44; }
+  border-color: #F05F44; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .btn-primary:hover {
   background-color: #ee4b08;
   border-color: #ee4b08;
   border-width: 5px;
   cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 h1.h1 {
