@@ -1,3 +1,9 @@
+body, html {
+	background-image: url(header.jpg);
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
 	font-family: fantasy;
 	font-size: 3em;
@@ -9,7 +15,3 @@ h1 {
 	margin-top: 10px;
 }
 
-body {
-	background-image: url(header.jpg);
-	background-size: cover;
-}
