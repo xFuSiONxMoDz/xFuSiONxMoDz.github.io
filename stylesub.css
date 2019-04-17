@@ -30,7 +30,7 @@ header.startup hr {
   margin-bottom: 30px;
 }
 
-header.startup h1 {
+header.startup h2 {
   font-size: 2rem; 
 }
 
@@ -58,7 +58,7 @@ header.startup h1 {
   cursor: pointer;
 }
 
-h1.h1 {
+h1 {
   font-family: fantasy;
   font-size: 3em;
   border-bottom: 2px solid pink;
