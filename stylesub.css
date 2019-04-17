@@ -35,16 +35,7 @@ header.startup h1 {
   font-size: 2rem; 
 }
 
-h1.h1 {
-  font-family: fantasy;
-  font-size: 3em;
-  border-bottom: 2px solid pink;
-  border-right: 2px solid pink;
-  width: 400px;
-  text-align: center;
-  box-shadow: 4px 4px 5px #888888;
-  margin-top: 10px;
-}
+
 
 .btn {
   font-weight: 700;
@@ -67,4 +58,18 @@ h1.h1 {
   border-width: 5px;
   cursor: pointer;
 }
-  
+
+h1.h1 {
+  font-family: fantasy;
+  font-size: 3em;
+  border-bottom: 2px solid pink;
+  border-right: 2px solid pink;
+  width: 400px;
+  text-align: center;
+  box-shadow: 4px 4px 5px #888888;
+  margin-top: 10px;
+}
+
+/*  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;*/
