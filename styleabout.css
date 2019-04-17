@@ -53,14 +53,8 @@ li {
 	display: inline-block;
 }
 
-
-
 .webtext:first-child {
 	border: 5px dashed green;
-}
-
-.active {
-	color: red;
 }
 
 #div1 {
