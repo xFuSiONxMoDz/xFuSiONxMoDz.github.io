@@ -40,6 +40,7 @@ header.startup h2 {
   border-radius: 300px;
   font-family: 'Montserrat', sans-serif;
   background-position: center;
+  justify-content: center;
 }
 
 .btn-xl {
